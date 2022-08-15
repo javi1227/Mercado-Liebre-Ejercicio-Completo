@@ -1,93 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(home.css);
 
-.del-registro{
-    background-color: #ebebeb;
-}
 
-.form-register {
-    width: 400px;
-    /* background: #24303c ; */
-    background: #ebebeb;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* color: white;*/
-    color: #000;
-    box-shadow: 7px 13px 37px #000;
-}
-
-.form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.controls {
-    width: 100%;
-    /* background: #24303c; */
-    background: #ebebeb;;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1259c3;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    /* color: white; */
-    color: #000;
-}
-
-.form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-.form-register a {
-    color: #000;
-    text-decoration: none;
-}
-
-.form-register a:hover {
-    color: #1259c3;
-    text-decoration: underline;
-}
-
-.form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
-
-/* PERFIL USUARIO Y CATEGORIAS DE INTERES */
-
-.user {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    
-}
-
-.intereses {
+section.register .input_check-container {
     display: flex;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
+section.register {
+    max-width: 375px; 
+    border: 1px solid black;
+    margin: 200px auto 0px auto;
+} 
 
 
-/* <!-- MOBILE --> */
 
-@media (max-width: 488px) { 
-    .form-register {
-        width: 267px;
-    }
-}

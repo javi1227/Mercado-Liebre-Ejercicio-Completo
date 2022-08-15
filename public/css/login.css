@@ -1,51 +1,16 @@
-.login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5rem 0 0;
+@import url(home.css);
+
+section.login .input_check-container {
+    margin-bottom: 1rem;
 }
 
-.loginUnido{
-    width: 100%;
+section.login{ 
+    max-width: 375px; /* para el maximo de la tarjeta de registro */
+    border: 1px solid black;
+    margin: 200px auto 90px auto;
 }
 
-.loginDos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1rem;
-}
-
-.login-user {
-    width: 30%;
-    height: 50%;
-    border-bottom: solid 1px gray;
-    padding: 0.5rem 0;
-    border-radius: 10px;
-}
-
-.botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
+section.login button.btn-submit:hover{
+    background-color:  #0022AA;
     color: white;
-    margin: 16px 0;
-    font-size: 16px;
-    border-radius: 10px;
-}
-
-.ButtonBlue{
-    width: 30%;
-}
-
-@media (max-width: 441px) {  
-    .loginUnido{
-        width: 100%;
-    }
-
-    .login-user {
-        font-size: 9px;
-    }
-
 }
